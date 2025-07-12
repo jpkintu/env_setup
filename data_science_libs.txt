@@ -1,0 +1,95 @@
+##Core Scientific & Data Processing
+
+numpy #The fundamental package for scientific computing with Python, offering powerful N-dimensional array objects.
+pandas #A fast, powerful, flexible, and easy-to-use open-source data analysis and manipulation tool.
+scipy #A library used for scientific and technical computing; it contains modules for optimization, linear algebra, integration, and other common tasks.
+dask #A flexible library for parallel computing in Python, enabling performance at scale for data analytics.
+polars # A fast, multi-threaded, and memory-efficient DataFrame library written in Rust, providing an alternative to pandas.
+
+##Data Visualization
+
+matplotlib # A comprehensive library for creating static, animated, and interactive visualizations in Python.
+seaborn # A data visualization library based on matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics.
+plotly # An interactive graphing library that allows for the creation of a wide range of chart types and dashboards.
+bokeh # An interactive visualization library that targets modern web browsers for presentation, enabling the creation of elegant and concise graphics.
+altair # A declarative statistical visualization library for Python, based on Vega and Vega-Lite.
+
+##Machine Learning & Modeling
+
+scikit-learn # A simple and efficient tool for predictive data analysis, built on NumPy, SciPy, and matplotlib.
+xgboost # An optimized distributed gradient boosting library designed to be highly efficient, flexible, and portable.
+lightgbm # A gradient boosting framework that uses tree-based learning algorithms.
+catboost # A high-performance open-source library for gradient boosting on decision trees.
+statsmodels # A Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests and statistical data exploration.
+pyspark # The Python API for Apache Spark, a powerful open-source unified analytics engine for large-scale data processing.
+
+##Deep Learning
+
+tensorflow # An end-to-end open-source platform for machine learning, developed by Google.
+keras # A high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano.
+torch # An open-source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.
+torchvision # A library for PyTorch that provides popular datasets, model architectures, and common image transformations for computer vision.
+JAX # A high-performance numerical computing library from Google that combines NumPy with a just-in-time compiler and automatic differentiation.
+
+##Data Handling & Input/Output
+
+openpyxl # A Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files.
+xlrd # A library for developers to extract data from Microsoft Excel spreadsheet files.
+pyarrow # A cross-language development platform for in-memory data, designed to accelerate analytical processing and data movement.
+h5py # A Pythonic interface to the HDF5 binary data format.
+SQLAlchemy # A SQL toolkit and Object-Relational Mapper (ORM) that gives application developers the full power and flexibility of SQL.
+
+##NLP (Natural Language Processing)
+
+nltk # A leading platform for building Python programs to work with human language data.
+spacy # An open-source software library for advanced Natural Language Processing.
+transformers # A library from Hugging Face that provides thousands of pretrained models to perform tasks on texts, images, and audio.
+gensim # A Python library for topic modeling, document indexing, and similarity retrieval with large corpora.
+TextBlob # A library for processing textual data, providing a simple API for common NLP tasks such as part-of-speech tagging, noun phrase extraction, and sentiment analysis.
+
+##Notebooks & Display
+
+ipython # A powerful interactive shell for Python that offers features like introspection, rich media, and shell syntax.
+jupyter # An open-source project that enables the creation and sharing of documents containing live code, equations, visualizations, and narrative text.
+jupyterlab # The next-generation web-based user interface for Project Jupyter.
+notebook # The classic Jupyter web application for creating and sharing computational documents.
+
+##Web Scraping & APIs
+
+requests # A simple, yet elegant, HTTP library for Python, making HTTP requests straightforward.
+beautifulsoup4 # A library for pulling data out of HTML and XML files.
+lxml # A high-performance, production-quality library for processing XML and HTML.
+selenium # A powerful tool for automating web browsers, often used for web scraping when content is dynamically loaded.
+scrapy # An open-source and collaborative framework for extracting the data you need from websites.
+
+##MLOps & Experiment Tracking
+
+mlflow # An open-source platform to manage the ML lifecycle, including experimentation, reproducibility, and deployment.
+Weights and Biases # A set of developer tools for machine learning that helps with experiment tracking, data versioning, and model management.
+dvc # An open-source version control system for machine learning projects, which manages datasets, models, and experiments.
+
+##Web Frameworks & API Deployment
+
+Flask # A lightweight WSGI web application framework in Python.
+FastAPI # A modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
+Streamlit # A faster way to build and share data apps.
+Gradio # A library that allows you to quickly create customizable UI components for your machine learning model, function, or API.
+
+##Utility & Environment Management
+
+joblib # A set of tools to provide lightweight pipelining in Python, particularly useful for caching and parallelizing jobs.
+tqdm # A fast, extensible progress bar for Python and CLI.
+python-dotenv # A library that reads key-value pairs from a .env file and can set them as environment variables.
+Poetry # A tool for dependency management and packaging in Python.
+
+##Geospatial (optional based on needs)
+
+geopandas # An open-source project to make working with geospatial data in python easier by extending the datatypes used by pandas to allow spatial operations.
+shapely # A Python package for manipulation and analysis of planar geometric objects.
+folium # A library that makes it easy to visualize data that’s been manipulated in Python on an interactive leaflet map.
+
+##Data Imputation & Preprocessing
+
+missingno # A small Python library that provides a series of visualizations to understand the presence and distribution of missing data within a pandas DataFrame.
+category_encoders # A library of scikit-learn-compatible transformers to encode categorical variables.
+imblearn # A Python package offering a number of re-sampling techniques to tackle datasets with imbalanced classes.
